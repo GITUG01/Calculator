@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="txt_0">0</string>
+    <string name="txt_1">1</string>
+    <string name="txt_2">2</string>
+    <string name="txt_3">3</string>
+    <string name="txt_4">4</string>
+    <string name="txt_5">5</string>
+    <string name="txt_6">6</string>
+    <string name="txt_7">7</string>
+    <string name="txt_8">8</string>
+    <string name="txt_9">9</string>
+    <string name="txt_x">x</string>
+    <string name="common">cc</string>
+    <string name="txt_del">⌫</string>
+    <string name="txt_plus">-</string>
+    <string name="txt_minus">-</string>
+    <string name="txt_cancel">C</string>
+    <string name="txt_result">=</string>
+    <string name="txt_percent">%</string>
+    <string name="txt_divisor">÷</string>
+    <string name="txt_plus_minus">+/-</string>
+</resources>
