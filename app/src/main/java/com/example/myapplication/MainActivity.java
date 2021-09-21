@@ -1,17 +1,10 @@
 package com.example.myapplication;
 
-import androidx.annotation.IntRange;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.Editable;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.myapplication.R;
-
-import java.awt.font.TextAttribute;
 import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {

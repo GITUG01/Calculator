@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@color/btn_color</item>
+    </style>
+</resources>
