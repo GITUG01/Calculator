@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
+
 import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
@@ -142,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
                     operand = "";
                 }
 
-                if (getP(rpn.charAt(i)) > 1){
+                if (getP(rpn.charAt(i)) > 1) {
                     double a = stack.pop(), b = stack.pop();
 
                     if (rpn.charAt(i) == '+') stack.push(b + a);
