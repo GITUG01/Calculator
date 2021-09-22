@@ -1,12 +1,22 @@
 package com.example.myapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
+import android.Manifest;
+import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Stack;
+import java.util.zip.Inflater;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     TextView common;
     TextView result;
     EditText editText;
+    Menu dark;
+    Menu bright;
 
     static Stack<Integer> stackNumbers = new Stack();
     static Stack stackDelimeters = new Stack();
@@ -43,8 +55,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        editText = findViewById(R.id.text_place);
+        dark = findViewById(R.id.dark);
+        bright = findViewById(R.id.bright);
 
+        editText = findViewById(R.id.text_place);
         result = findViewById(R.id.txt_result);
         x = findViewById(R.id.txt_X);
         common = findViewById(R.id.txt_common);
@@ -88,6 +102,32 @@ public class MainActivity extends AppCompatActivity {
             editText.setTextSize(40);
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        menu.add(0, 1, 0, "Dark theme");
+        menu.add(0, 2, 1, "Bright theme");
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()){
+            case 1:
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                Toast.makeText(this, "Dark theme", Toast.LENGTH_SHORT).show();
+                break;
+            case 2:
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                Toast.makeText(this, "Bright theme", Toast.LENGTH_SHORT).show();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     public static String removeLastElement(String s) {
