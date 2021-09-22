@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dark"
+        android:visible="true"
+        android:title="Dark theme">
+    </item>
+
+    <item
+        android:id="@+id/bright"
+        android:visible="true"
+        android:title="Bright theme">
+    </item>
+
+</menu>

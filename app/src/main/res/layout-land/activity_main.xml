@@ -41,6 +41,21 @@
             <TableRow android:layout_weight="1">
 
                 <TextView
+                    android:id="@+id/skobka"
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="(" />
+
+                <TextView
+                    android:id="@+id/skobka2"
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text=")" />
+
+                <TextView
+                    android:id="@+id/dell"
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="1/x" />
+
+                <TextView
                     android:id="@+id/cancel"
                     style="@style/BtnStyle.OperationBtn"
                     android:text="@string/txt_cancel" />
@@ -63,6 +78,18 @@
 
 
             <TableRow android:layout_weight="1">
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="x²" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="x³" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="x" />
 
                 <TextView
                     android:id="@+id/txt_7"
@@ -89,6 +116,18 @@
             <TableRow android:layout_weight="1">
 
                 <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="x!" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="√" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="√x" />
+
+                <TextView
                     android:id="@+id/txt_4"
                     style="@style/BtnStyle"
                     android:text="@string/txt_4" />
@@ -113,6 +152,18 @@
             <TableRow android:layout_weight="1">
 
                 <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="e" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="ln" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="log" />
+
+                <TextView
                     android:id="@+id/txt_1"
                     style="@style/BtnStyle"
                     android:text="@string/txt_1" />
@@ -135,6 +186,18 @@
             </TableRow>
 
             <TableRow android:layout_weight="1">
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="sin" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="cos" />
+
+                <TextView
+                    style="@style/BtnStyle.OperationBtn"
+                    android:text="tan" />
 
                 <TextView
                     android:id="@+id/txt_plus_minus"

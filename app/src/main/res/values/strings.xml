@@ -11,7 +11,7 @@
     <string name="txt_8">8</string>
     <string name="txt_9">9</string>
     <string name="txt_x">x</string>
-    <string name="common">cc</string>
+    <string name="common">,</string>
     <string name="txt_del">⌫</string>
     <string name="txt_plus">-</string>
     <string name="txt_minus">-</string>
