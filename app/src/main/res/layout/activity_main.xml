@@ -47,17 +47,17 @@
 
                 <TextView
                     style="@style/BtnStyle.OperationBtn"
-                    android:text="%" />
+                    android:text="@string/txt_percent" />
 
                 <TextView
                     android:id="@+id/txt_delitel"
                     style="@style/BtnStyle.OperationBtn"
-                    android:text="÷" />
+                    android:text="@string/txt_divisor" />
 
                 <TextView
                     android:id="@+id/del"
                     style="@style/BtnStyle.OperationBtn"
-                    android:text="⌫" />
+                    android:text="@string/txt_del" />
 
             </TableRow>
 
@@ -67,7 +67,7 @@
                 <TextView
                     android:id="@+id/txt_7"
                     style="@style/BtnStyle"
-                    android:text="7" />
+                    android:text="@string/txt_7" />
 
                 <TextView
                     android:id="@+id/txt_8"
@@ -106,7 +106,7 @@
                 <TextView
                     android:id="@+id/txt_minus"
                     style="@style/BtnStyle.OperationBtn"
-                    android:text="@string/txt_minus" />
+                    android:text="@string/txt_plus" />
 
             </TableRow>
 
@@ -130,7 +130,7 @@
                 <TextView
                     android:id="@+id/txt_plus"
                     style="@style/BtnStyle.OperationBtn"
-                    android:text="@string/txt_plus" />
+                    android:text="@string/txt_minus" />
 
             </TableRow>
 
